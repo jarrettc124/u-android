@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UNUM</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>
