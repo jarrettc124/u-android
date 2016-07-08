@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contain_draft"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/draft_menu"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:background="@android:color/white">
+
+        <ImageButton
+            android:id="@+id/btn_main_menu"
+            android:layout_width="15sp"
+            android:layout_height="15sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15sp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/mark_menu" />
+
+        <ImageView
+            android:layout_width="2sp"
+            android:layout_height="30sp"
+            android:layout_alignLeft="@+id/btn_login_back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="45sp"
+            android:background="#757575" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:textColor="#757575"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_drafts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/draft_menu"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</RelativeLayout>

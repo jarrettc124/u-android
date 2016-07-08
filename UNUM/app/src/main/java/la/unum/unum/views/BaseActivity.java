@@ -1,6 +1,8 @@
 package la.unum.unum.views;
 
+import android.app.ProgressDialog;
 import android.content.Context;
+import android.graphics.drawable.ColorDrawable;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -8,10 +10,12 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 
 
+import la.unum.unum.R;
 import la.unum.unum.utils.UiUtil;
 
 
 public abstract class BaseActivity extends AppCompatActivity {
+//    private ProgressDialog pd = null;
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);

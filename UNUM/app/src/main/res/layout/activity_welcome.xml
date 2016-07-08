@@ -20,14 +20,14 @@
             android:src="@drawable/welcome_title" />
 
         <Button
+            android:id="@+id/connect_instagram"
             android:layout_width="260sp"
             android:layout_height="40sp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="230sp"
             android:background="@drawable/button_color"
             android:text="CONNECT INSTAGRAM"
-            android:textColor="@drawable/text_color"
-            android:onClick="connect_Instagram"/>
+            android:textColor="@drawable/text_color" />
 
         <ImageView
             android:layout_width="90sp"

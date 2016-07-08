@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/my_id1">
+        <item
+            android:title="SETTINGS"
+            android:id="@+id/menu_settings"/>
+    </group>
+    <group android:id="@+id/my_id2">
+        <item
+            android:title="TIPS"
+            android:id="@+id/menu_tips"/>
+    </group>
+    <group android:id="@+id/my_id3">
+        <item
+            android:title="LEGAL"
+            android:id="@+id/menu_legal"/>
+    </group>
+    <group android:id="@+id/my_id4">
+        <item
+            android:title="LOG OUT"
+            android:id="@+id/menu_logout"/>
+    </group>
+    <group android:id="@+id/my_id5">
+        <item
+            android:title="FEEDBACK"
+            android:id="@+id/menu_feedback"/>
+    </group>
+</menu>

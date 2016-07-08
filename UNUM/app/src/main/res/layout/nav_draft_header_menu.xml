@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100sp"
+    android:background="@android:color/white"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="15sp"
+    android:paddingBottom="10sp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/mark_header_menu"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:scaleType="fitXY"
+        android:src="@drawable/mark_header_menu"
+        />
+
+    <ImageView
+        android:layout_width="18sp"
+        android:layout_height="14sp"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/header_back" />
+</RelativeLayout>
